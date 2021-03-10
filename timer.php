@@ -76,8 +76,6 @@ try
         while( $row = $query->fetch(PDO::FETCH_ASSOC) )
         {
             echo "<tr>";
-            // BORRAR:
-            // <td style='width:350px; word-break: break-all;'>
             echo "<td>".$row['temps_inici']."</td>";
             echo "<td>".'&nbsp;&nbsp;&nbsp;&nbsp;'.$row['temps_fi']."</td>";
             echo "<td>".'&nbsp;&nbsp;&nbsp;&nbsp;'.$row['duracio']."</td>";
